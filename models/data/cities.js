@@ -16,7 +16,8 @@ const cities = [
         description: 'The largest city in the United States.',
         language: 'English',
         continent: 'North America',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672aaebb793bf32b95701c48','672ac76768faed02ec8cf767','672ac7c268faed02ec8cf769']
     },
     {
         id: 2,
@@ -31,7 +32,8 @@ const cities = [
         description: 'Capital city of Japan and the largest metropolitan area in the world.',
         language: 'Japanese',
         continent: 'Asia',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672ac7c268faed02ec8cf76a','672ac87e68faed02ec8cf77d']
     },
     {
         id: 3,
@@ -46,7 +48,8 @@ const cities = [
         description: 'Known as the "City of Light", Paris is famous for its art, culture, and monuments.',
         language: 'French',
         continent: 'Europe',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672ac87e68faed02ec8cf77e','672ac87e68faed02ec8cf77f']
     },
     {
         id: 4,
@@ -61,7 +64,8 @@ const cities = [
         description: 'Cairo is the largest city in the Arab world.',
         language: 'Arabic',
         continent: 'Africa',
-        climate: 'Dry'
+        climate: 'Dry',
+        itineraries: ['672ac87e68faed02ec8cf780','672ac87e68faed02ec8cf781']
     },
     {
         id: 5,
@@ -76,7 +80,8 @@ const cities = [
         description: 'Sydney is famous for its harbor and the Sydney Opera House.',
         language: 'English',
         continent: 'Australia',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672ac87e68faed02ec8cf782','672ac87e68faed02ec8cf783']
     },
     {
         id: 6,
@@ -91,7 +96,8 @@ const cities = [
         description: 'Known for its Carnival festival and the Christ the Redeemer statue.',
         language: 'Portuguese',
         continent: 'South America',
-        climate: 'Tropical'
+        climate: 'Tropical',
+        itineraries: ['672ac87e68faed02ec8cf784','672ac87e68faed02ec8cf785']
     },
     {
         id: 7,
@@ -106,7 +112,8 @@ const cities = [
         description: 'The capital city of Russia.',
         language: 'Russian',
         continent: 'Europe',
-        climate: 'Continental'
+        climate: 'Continental',
+        itineraries: ['672ac87e68faed02ec8cf786','672ac87e68faed02ec8cf787']
     },
     {
         id: 8,
@@ -121,7 +128,8 @@ const cities = [
         description: 'One of the most important financial centers in the Americas.',
         language: 'Spanish',
         continent: 'North America',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672ac87e68faed02ec8cf788','672ac87e68faed02ec8cf789']
     },
     {
         id: 9,
@@ -136,7 +144,8 @@ const cities = [
         description: 'Germany\'s capital and a major cultural hub.',
         language: 'German',
         continent: 'Europe',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672ac87e68faed02ec8cf78a','672ac87e68faed02ec8cf78b']
     },
     {
         id: 10,
@@ -151,7 +160,8 @@ const cities = [
         description: 'The capital and largest city of Argentina.',
         language: 'Spanish',
         continent: 'South America',
-        climate: 'Temperate'
+        climate: 'Temperate',
+        itineraries: ['672ac87e68faed02ec8cf78c','672ac87e68faed02ec8cf78d']
     },
     {
         id: 11,

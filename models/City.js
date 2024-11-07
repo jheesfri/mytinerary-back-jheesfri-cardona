@@ -19,9 +19,10 @@ let schema = new Schema({
     },
     description: { type: String, default: '' },
     language: { type: String, default: 'Unknown' },
-    continent: { type: String, required: true},
-    climate: {  type: String,  default: 'Temperate' } // Clima por defecto
-}, {
+    continent: { type: String, required: true },
+    climate: { type: String, default: 'Temperate' }, // Clima por defecto
+    itineraries: [{ type: Schema.Types.ObjectId, ref: 'itineraries', required: true }]
+}, { 
     timestamps: true // Agrega automáticamente createdAt y updatedAt
 });
 

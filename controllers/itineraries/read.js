@@ -3,7 +3,7 @@ import  "../../models/Activity.js";
 
 export const allItineraries = async (req, res, next) => {
     try {
-        const itineraries = await Itinerary.find().populate('activities','title description').exec()
+        const itineraries = await Itinerary.find().populate('activities').exec()
         console.log(itineraries);
         
         return res.status(200).json({
@@ -24,7 +24,7 @@ export const itineraryById = async (req, res, next) => {
         }
         
        
-        const itinerary = await Itinerary.findById(_id).populate('activities','title description').exec()
+        const itinerary = await Itinerary.findById(_id).populate('activities').exec()
         return res.status(200).json({
             response: itinerary
         })

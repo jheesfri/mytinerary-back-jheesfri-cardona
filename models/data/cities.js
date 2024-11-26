@@ -375,7 +375,7 @@ const cities = [
     },
     {
         id: 25,
-        name: 'Bogotá',
+        name: 'Bogota',
         image: 'https://i.pinimg.com/enabled_hi/564x/bf/80/ca/bf80ca960afa89b5ecd8e2fea88d464f.jpg',
         country: 'Colombia',
         population: 7743955,

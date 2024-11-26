@@ -13,7 +13,7 @@ export const deleteItinerary = async (req, res, next) => {
         const itinerary = await Itinerary.findByIdAndDelete(_id);
 
         // Verifica si el itinerario existe
-        if (!itinerary) {
+        if (itinerary.deletedCount === 0) {
             return res.status(404).json({ error: "Itinerary not found" });
         }
 

@@ -1,7 +1,7 @@
 import City from "../../models/City.js";
 
 
-const createCity = async (req,res,next) => {
+export const createCity = async (req,res,next) => {
     try {
         let city = req.body
         let all = await City.create(city)
@@ -26,6 +26,3 @@ export const createCities = async (req, res, next) => {
         next(error)
     }
 }
-
-
-export { createCity }
